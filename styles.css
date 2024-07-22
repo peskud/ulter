@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, p {
+body, h1, h2, p, ul, li, form {
     margin: 0;
     padding: 0;
 }
@@ -9,62 +9,77 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
 }
 
 header {
-    background-color: #4CAF50; /* Green */
-    color: white;
-    padding: 20px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 40px 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 36px;
 }
 
-.intro, .about, .contact {
-    padding: 20px;
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.about, .contact {
+    padding: 40px 20px;
     text-align: center;
 }
 
-.intro {
-    background-color: #e8f5e9; /* Light green */
-}
-
 .about {
-    background-color: #f1f8e9; /* Light green */
+    background-color: #fff; /* White background */
 }
 
 .contact {
-    background-color: #e8f5e9; /* Light green */
+    background-color: #f4f4f4; /* Light gray background */
 }
 
 .contact-form input, .contact-form textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 2px solid #4CAF50; /* Green border */
+    border: 1px solid #000; /* Black border */
     border-radius: 5px;
 }
 
 .contact-form button {
-    background-color: #4CAF50; /* Green */
-    color: white;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
     margin-top: 10px;
+    font-size: 16px;
 }
 
 .contact-form button:hover {
-    background-color: #388E3C; /* Darker green */
+    background-color: #333; /* Darker black */
 }
 
 footer {
-    background-color: #4CAF50; /* Green */
-    color: white;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
     padding: 20px;
     text-align: center;
 }
