@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, h3, p {
+body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
@@ -16,7 +16,6 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-    border-bottom: 5px solid #388E3C; /* Darker green */
 }
 
 header h1 {
@@ -24,74 +23,21 @@ header h1 {
     font-size: 28px;
 }
 
-.hero {
-    background: linear-gradient(to right, #FFC107, #FF9800); /* Gradient from amber to orange */
-    color: white;
-    padding: 40px 20px;
+.intro, .about, .contact {
+    padding: 20px;
     text-align: center;
 }
 
-.hero img {
-    max-width: 80%;
-    height: auto;
-    border: 5px solid #fff; /* White border around the image */
-    border-radius: 10px; /* Rounded corners */
-}
-
-button {
-    background-color: #ffffff; /* White */
-    color: #FF9800; /* Orange */
-    border: 2px solid #FF9800; /* Orange */
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: #FF9800; /* Orange */
-    color: white;
+.intro {
+    background-color: #e8f5e9; /* Light green */
 }
 
 .about {
-    background-color: #F1F8E9; /* Light green */
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.about img {
-    max-width: 80%;
-    height: auto;
-    border: 5px solid #ddd; /* Light gray border */
-    border-radius: 10px; /* Rounded corners */
-}
-
-.products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 40px 20px;
-    background-color: #E8F5E9; /* Very light green */
-}
-
-.product {
-    width: 30%;
-    margin: 20px 0;
-    text-align: center;
-}
-
-.product img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #4CAF50; /* Green border */
-    border-radius: 10px; /* Rounded corners */
+    background-color: #f1f8e9; /* Light green */
 }
 
 .contact {
-    background-color: #F1F8E9; /* Light green */
-    padding: 40px 20px;
-    text-align: center;
+    background-color: #e8f5e9; /* Light green */
 }
 
 .contact-form input, .contact-form textarea {
@@ -121,9 +67,4 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
-    border-top: 5px solid #388E3C; /* Darker green */
-}
-
-footer p {
-    margin: 0;
 }
