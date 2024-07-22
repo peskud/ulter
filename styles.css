@@ -12,11 +12,11 @@ body {
 }
 
 header {
-    background-color: #3a9ad9; /* Bright blue */
+    background-color: #4CAF50; /* Green */
     color: white;
     padding: 20px;
     text-align: center;
-    border-bottom: 5px solid #2a7ab3; /* Darker blue */
+    border-bottom: 5px solid #388E3C; /* Darker green */
 }
 
 header h1 {
@@ -25,7 +25,7 @@ header h1 {
 }
 
 .hero {
-    background: linear-gradient(to right, #ff6f61, #de1d9d); /* Gradient from coral to pink */
+    background: linear-gradient(to right, #FFC107, #FF9800); /* Gradient from amber to orange */
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -40,8 +40,8 @@ header h1 {
 
 button {
     background-color: #ffffff; /* White */
-    color: #ff6f61; /* Coral */
-    border: 2px solid #ff6f61; /* Coral */
+    color: #FF9800; /* Orange */
+    border: 2px solid #FF9800; /* Orange */
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
@@ -50,12 +50,12 @@ button {
 }
 
 button:hover {
-    background-color: #ff6f61; /* Coral */
+    background-color: #FF9800; /* Orange */
     color: white;
 }
 
 .about {
-    background-color: #f4f4f4; /* Light gray */
+    background-color: #F1F8E9; /* Light green */
     padding: 40px 20px;
     text-align: center;
 }
@@ -72,7 +72,7 @@ button:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 40px 20px;
-    background-color: #eaf2f8; /* Very light blue */
+    background-color: #E8F5E9; /* Very light green */
 }
 
 .product {
@@ -84,12 +84,12 @@ button:hover {
 .product img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #3a9ad9; /* Blue border */
+    border: 2px solid #4CAF50; /* Green border */
     border-radius: 10px; /* Rounded corners */
 }
 
 .contact {
-    background-color: #f4f4f4; /* Light gray */
+    background-color: #F1F8E9; /* Light green */
     padding: 40px 20px;
     text-align: center;
 }
@@ -98,12 +98,12 @@ button:hover {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 2px solid #3a9ad9; /* Blue border */
+    border: 2px solid #4CAF50; /* Green border */
     border-radius: 5px;
 }
 
 .contact-form button {
-    background-color: #3a9ad9; /* Blue */
+    background-color: #4CAF50; /* Green */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -113,15 +113,15 @@ button:hover {
 }
 
 .contact-form button:hover {
-    background-color: #2a7ab3; /* Darker blue */
+    background-color: #388E3C; /* Darker green */
 }
 
 footer {
-    background-color: #3a9ad9; /* Blue */
+    background-color: #4CAF50; /* Green */
     color: white;
     padding: 20px;
     text-align: center;
-    border-top: 5px solid #2a7ab3; /* Darker blue */
+    border-top: 5px solid #388E3C; /* Darker green */
 }
 
 footer p {
